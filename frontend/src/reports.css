@@ -1,0 +1,17 @@
+/* Stage 4C.2: readable reports presentation; data contracts unchanged. */
+.report-scope { margin-bottom: 22px; }
+.report-scope > div:last-child { padding: 0 22px 22px; }
+.report-scope p { font-size: 13px; line-height: 1.7; color: #A6BFDC; margin: 12px 0; overflow-wrap: anywhere; }
+.report-scope label { display: flex; align-items: center; gap: 9px; font-size: 14px; color: #D2E1F5; margin: 16px 0 10px; }
+.report-scope input { width: 16px; height: 16px; accent-color: #3B82F6; flex-shrink: 0; }
+.report-scope p[role=alert], .report-generation-error { color: #E0B0BF; }
+.report-generation-status, .report-generation-success, .report-generation-error { padding: 16px; font-size: 14px; line-height: 1.8; border: 1px solid #26364B; border-radius: 8px; margin: 18px 0; }
+.report-generation-success { color: #80C9BE; }
+.report-generation-status { color: #A0C5FA; }
+.report-generation-error { border-color: #654150; }
+.report-scope p { font-size: 14px; }
+.report-scope label { align-items: flex-start; font-size: 15px; }
+.report-scope input { width: 18px; height: 18px; margin-top: 3px; }
+.report-scope .card-header { align-items: center; }
+.report-scope .card-header > .button { flex-shrink: 0; }
+.report-generation-status, .report-generation-success, .report-generation-error { font-size: 14px; }

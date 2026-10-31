@@ -1,0 +1,313 @@
+﻿timestamp,src_ip,dst_ip,username,hostname,event_type,event_id,status,dst_port,bytes_sent,message
+2026-10-28T08:00:00-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,800,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:00:36-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,813,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:01:12-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,826,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:01:48-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,839,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:02:24-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,852,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:03:00-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,865,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:03:36-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,878,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:04:12-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,891,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:04:48-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,904,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:05:24-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,917,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:06:00-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,930,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:06:36-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,943,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:07:12-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,956,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:07:48-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,969,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:08:24-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,982,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:09:00-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,995,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:09:36-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,1008,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:10:12-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,1021,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:10:48-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,1034,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:11:24-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,1047,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:12:00-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,1060,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:12:36-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,1073,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:13:12-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,1086,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:13:48-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,1099,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:14:24-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,1112,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:15:00-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,1125,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:15:36-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,1138,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:16:12-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,1151,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:16:48-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,1164,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:17:24-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,1177,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:18:00-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,1190,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:18:36-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,1203,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:19:12-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,1216,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:19:48-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,1229,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:20:24-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,1242,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:21:00-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,1255,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:21:36-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,1268,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:22:12-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,1281,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:22:48-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,1294,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:23:24-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,1307,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:24:00-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,1320,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:24:36-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,1333,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:25:12-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,1346,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:25:48-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,1359,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:26:24-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,1372,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:27:00-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,1385,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:27:36-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,1398,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:28:12-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,1411,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:28:48-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,1424,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:29:24-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,1437,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:30:00-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,1450,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:30:36-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,1463,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:31:12-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,1476,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:31:48-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,1489,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:32:24-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,1502,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:33:00-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,1515,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:33:36-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,1528,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:34:12-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,1541,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:34:48-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,1554,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:35:24-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,1567,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:36:00-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,1580,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:36:36-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,1593,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:37:12-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,1606,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:37:48-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,1619,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:38:24-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,1632,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:39:00-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,1645,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:39:36-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,1658,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:40:12-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,1671,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:40:48-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,1684,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:41:24-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,1697,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:42:00-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,1710,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:42:00-05:00,192.0.2.45,10.20.0.15,m.rodriguez,ws-finanzas,login,4625,failure,3389,0,[SINTETICO] Error de inicio de sesion: credenciales incorrectas
+2026-10-28T08:42:24-05:00,192.0.2.45,10.20.0.15,m.rodriguez,ws-finanzas,login,4625,failure,3389,0,[SINTETICO] Error de inicio de sesion: credenciales incorrectas
+2026-10-28T08:42:36-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,1723,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:42:48-05:00,192.0.2.45,10.20.0.15,m.rodriguez,ws-finanzas,login,4625,failure,3389,0,[SINTETICO] Error de inicio de sesion: credenciales incorrectas
+2026-10-28T08:43:12-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,1736,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:43:12-05:00,192.0.2.45,10.20.0.15,m.rodriguez,ws-finanzas,login,4625,failure,3389,0,[SINTETICO] Error de inicio de sesion: credenciales incorrectas
+2026-10-28T08:43:36-05:00,192.0.2.45,10.20.0.15,m.rodriguez,ws-finanzas,login,4625,failure,3389,0,[SINTETICO] Error de inicio de sesion: credenciales incorrectas
+2026-10-28T08:43:48-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,1749,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:44:00-05:00,192.0.2.45,10.20.0.15,m.rodriguez,ws-finanzas,login,4625,failure,3389,0,[SINTETICO] Error de inicio de sesion: credenciales incorrectas
+2026-10-28T08:44:24-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,1762,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:44:24-05:00,192.0.2.45,10.20.0.15,m.rodriguez,ws-finanzas,login,4625,failure,3389,0,[SINTETICO] Error de inicio de sesion: credenciales incorrectas
+2026-10-28T08:44:48-05:00,192.0.2.45,10.20.0.15,m.rodriguez,ws-finanzas,login,4625,failure,3389,0,[SINTETICO] Error de inicio de sesion: credenciales incorrectas
+2026-10-28T08:45:00-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,1775,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:45:36-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,1788,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:46:00-05:00,192.0.2.45,10.20.0.15,m.rodriguez,ws-finanzas,login,4624,success,3389,0,[SINTETICO] Inicio de sesion exitoso posterior a multiples fallos
+2026-10-28T08:46:12-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,1801,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:46:48-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,1814,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:47:24-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,1827,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:48:00-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,1840,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:48:00-05:00,192.0.2.45,10.20.0.15,m.rodriguez,ws-finanzas,process,4104,observed,,0,[SINTETICO - NO EJECUTAR] powershell.exe -EncodedCommand DEMO_NO_ES_UN_COMANDO_VALIDO
+2026-10-28T08:48:36-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,1853,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:49:12-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,1866,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:49:48-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,1879,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:50:00-05:00,192.0.2.45,10.20.0.8,,srv-interno,connection,,denied,21,0,[SINTETICO] Intento de conexion hacia servicio interno
+2026-10-28T08:50:04.200000-05:00,192.0.2.45,10.20.0.8,,srv-interno,connection,,denied,22,0,[SINTETICO] Intento de conexion hacia servicio interno
+2026-10-28T08:50:08.400000-05:00,192.0.2.45,10.20.0.8,,srv-interno,connection,,denied,23,0,[SINTETICO] Intento de conexion hacia servicio interno
+2026-10-28T08:50:12.600000-05:00,192.0.2.45,10.20.0.8,,srv-interno,connection,,denied,25,0,[SINTETICO] Intento de conexion hacia servicio interno
+2026-10-28T08:50:16.800000-05:00,192.0.2.45,10.20.0.8,,srv-interno,connection,,denied,53,0,[SINTETICO] Intento de conexion hacia servicio interno
+2026-10-28T08:50:21-05:00,192.0.2.45,10.20.0.8,,srv-interno,connection,,denied,80,0,[SINTETICO] Intento de conexion hacia servicio interno
+2026-10-28T08:50:24-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,1892,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:50:25.200000-05:00,192.0.2.45,10.20.0.8,,srv-interno,connection,,denied,110,0,[SINTETICO] Intento de conexion hacia servicio interno
+2026-10-28T08:50:29.400000-05:00,192.0.2.45,10.20.0.8,,srv-interno,connection,,denied,135,0,[SINTETICO] Intento de conexion hacia servicio interno
+2026-10-28T08:50:33.600000-05:00,192.0.2.45,10.20.0.8,,srv-interno,connection,,denied,139,0,[SINTETICO] Intento de conexion hacia servicio interno
+2026-10-28T08:50:37.800000-05:00,192.0.2.45,10.20.0.8,,srv-interno,connection,,denied,443,0,[SINTETICO] Intento de conexion hacia servicio interno
+2026-10-28T08:50:42-05:00,192.0.2.45,10.20.0.8,,srv-interno,connection,,denied,445,0,[SINTETICO] Intento de conexion hacia servicio interno
+2026-10-28T08:50:46.200000-05:00,192.0.2.45,10.20.0.8,,srv-interno,connection,,denied,1433,0,[SINTETICO] Intento de conexion hacia servicio interno
+2026-10-28T08:50:50.400000-05:00,192.0.2.45,10.20.0.8,,srv-interno,connection,,denied,3389,0,[SINTETICO] Intento de conexion hacia servicio interno
+2026-10-28T08:50:54.600000-05:00,192.0.2.45,10.20.0.8,,srv-interno,connection,,denied,8080,0,[SINTETICO] Intento de conexion hacia servicio interno
+2026-10-28T08:51:00-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,1905,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:51:36-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,1918,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:52:12-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,1931,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:52:48-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,1944,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:53:24-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,1957,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:54:00-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,1970,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:54:36-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,1983,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:55:12-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,1996,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:55:48-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,2009,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:56:24-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,2022,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:57:00-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,2035,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:57:36-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,2048,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:58:12-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,2061,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:58:48-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,2074,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T08:59:24-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,2087,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:00:00-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,2100,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:00:36-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,2113,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:01:12-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,2126,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:01:48-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,2139,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:02:24-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,2152,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:03:00-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,2165,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:03:36-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,2178,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:04:12-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,2191,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:04:48-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,2204,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:05:24-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,2217,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:06:00-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,2230,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:06:36-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,2243,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:07:12-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,2256,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:07:48-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,2269,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:08:24-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,2282,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:09:00-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,2295,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:09:36-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,2308,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:10:12-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,2321,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:10:48-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,2334,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:11:24-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,2347,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:12:00-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,2360,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:12:36-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,2373,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:13:12-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,2386,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:13:48-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,2399,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:14:24-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,2412,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:15:00-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,2425,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:15:36-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,2438,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:16:12-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,2451,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:16:48-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,2464,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:17:24-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,2477,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:18:00-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,2490,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:18:36-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,2503,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:19:12-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,2516,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:19:48-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,2529,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:20:24-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,2542,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:21:00-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,2555,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:21:36-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,2568,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:22:12-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,2581,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:22:48-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,2594,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:23:24-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,2607,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:24:00-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,2620,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:24:36-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,2633,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:25:12-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,2646,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:25:48-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,2659,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:26:24-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,2672,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:27:00-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,2685,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:27:36-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,2698,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:28:12-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,2711,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:28:48-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,2724,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:29:24-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,2737,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:30:00-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,2750,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:30:36-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,2763,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:31:12-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,2776,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:31:48-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,2789,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:32:24-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,2802,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:33:00-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,2815,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:33:36-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,2828,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:34:12-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,2841,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:34:48-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,2854,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:35:24-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,2867,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:36:00-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,2880,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:36:36-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,2893,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:37:12-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,2906,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:37:48-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,2919,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:38:24-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,2932,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:39:00-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,2945,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:39:36-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,2958,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:40:12-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,2971,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:40:48-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,2984,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:41:24-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,2997,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:42:00-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,3010,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:42:36-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,3023,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:43:12-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,3036,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:43:48-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,3049,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:44:24-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,3062,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:45:00-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,3075,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:45:00-05:00,198.51.100.23,10.20.0.5,cuenta.1,srv-identidad,login,4625,failure,443,0,[SINTETICO] Fallo de autenticacion contra diferentes cuentas
+2026-10-28T09:45:30-05:00,198.51.100.23,10.20.0.5,cuenta.2,srv-identidad,login,4625,failure,443,0,[SINTETICO] Fallo de autenticacion contra diferentes cuentas
+2026-10-28T09:45:36-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,3088,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:46:00-05:00,198.51.100.23,10.20.0.5,cuenta.3,srv-identidad,login,4625,failure,443,0,[SINTETICO] Fallo de autenticacion contra diferentes cuentas
+2026-10-28T09:46:12-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,3101,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:46:30-05:00,198.51.100.23,10.20.0.5,cuenta.4,srv-identidad,login,4625,failure,443,0,[SINTETICO] Fallo de autenticacion contra diferentes cuentas
+2026-10-28T09:46:48-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,3114,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:47:00-05:00,198.51.100.23,10.20.0.5,cuenta.5,srv-identidad,login,4625,failure,443,0,[SINTETICO] Fallo de autenticacion contra diferentes cuentas
+2026-10-28T09:47:24-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,3127,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:47:30-05:00,198.51.100.23,10.20.0.5,cuenta.6,srv-identidad,login,4625,failure,443,0,[SINTETICO] Fallo de autenticacion contra diferentes cuentas
+2026-10-28T09:48:00-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,3140,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:48:00-05:00,198.51.100.23,10.20.0.5,cuenta.7,srv-identidad,login,4625,failure,443,0,[SINTETICO] Fallo de autenticacion contra diferentes cuentas
+2026-10-28T09:48:36-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,3153,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:49:12-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,3166,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:49:48-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,3179,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:50:24-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,3192,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:51:00-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,3205,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:51:36-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,3218,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:52:12-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,3231,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:52:48-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,3244,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:53:24-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,3257,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:54:00-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,3270,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:54:36-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,3283,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:55:12-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,3296,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:55:48-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,3309,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:56:24-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,3322,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:57:00-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,3335,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:57:36-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,3348,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:58:12-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,3361,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:58:48-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,3374,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T09:59:24-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,3387,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:00:00-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,3400,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:00:36-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,3413,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:01:12-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,3426,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:01:48-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,3439,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:02:24-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,3452,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:03:00-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,3465,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:03:36-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,3478,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:04:12-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,3491,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:04:48-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,3504,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:05:24-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,3517,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:06:00-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,3530,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:06:36-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,3543,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:07:12-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,3556,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:07:48-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,3569,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:08:24-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,3582,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:09:00-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,3595,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:09:36-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,3608,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:10:00-05:00,10.20.0.25,10.20.0.5,svc.actualizacion,srv-app,process,4104,observed,,0,[SINTETICO - NO EJECUTAR] powershell.exe -ExecutionPolicy Bypass -File C:\Demo\actualizacion.ps1
+2026-10-28T10:10:12-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,3621,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:10:48-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,3634,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:11:24-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,3647,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:12:00-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,3660,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:12:36-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,3673,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:13:12-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,3686,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:13:48-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,3699,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:14:24-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,3712,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:15:00-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,3725,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:15:36-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,3738,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:16:12-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,3751,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:16:48-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,3764,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:17:24-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,3777,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:18:00-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,3790,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:18:36-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,3803,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:19:12-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,3816,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:19:48-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,3829,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:20:24-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,3842,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:21:00-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,3855,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:21:36-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,3868,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:22:12-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,3881,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:22:48-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,3894,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:23:24-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,3907,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:24:00-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,3920,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:24:36-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,3933,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:25:12-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,3946,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:25:48-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,3959,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:26:24-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,3972,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:27:00-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,3985,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:27:36-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,3998,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:28:12-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,4011,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:28:48-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,4024,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:29:24-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,4037,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:30:00-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,4050,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:30:36-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,4063,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:31:12-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,4076,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:31:48-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,4089,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:32:24-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,4102,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:33:00-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,4115,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:33:36-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,4128,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:34:12-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,4141,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:34:48-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,4154,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:35:24-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,4167,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:36:00-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,4180,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:36:36-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,4193,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:37:12-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,4206,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:37:48-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,4219,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:38:24-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,4232,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:39:00-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,4245,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:39:36-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,4258,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:40:12-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,4271,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:40:48-05:00,10.20.0.14,10.20.0.5,analista.05,ws-05,connection,,allowed,443,4284,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:41:24-05:00,10.20.0.15,10.20.0.5,analista.06,ws-06,connection,,allowed,443,4297,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:42:00-05:00,10.20.0.16,10.20.0.5,analista.07,ws-07,connection,,allowed,443,4310,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:42:36-05:00,10.20.0.17,10.20.0.5,analista.08,ws-08,connection,,allowed,443,4323,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:43:12-05:00,10.20.0.18,10.20.0.5,analista.09,ws-09,connection,,allowed,443,4336,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:43:48-05:00,10.20.0.19,10.20.0.5,analista.10,ws-10,connection,,allowed,443,4349,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:44:24-05:00,10.20.0.20,10.20.0.5,analista.11,ws-11,connection,,allowed,443,4362,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:45:00-05:00,10.20.0.21,10.20.0.5,analista.12,ws-12,connection,,allowed,443,4375,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:45:36-05:00,10.20.0.10,10.20.0.5,analista.01,ws-01,connection,,allowed,443,4388,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:46:12-05:00,10.20.0.11,10.20.0.5,analista.02,ws-02,connection,,allowed,443,4401,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:46:48-05:00,10.20.0.12,10.20.0.5,analista.03,ws-03,connection,,allowed,443,4414,[SINTETICO] Conexion de aplicacion corporativa
+2026-10-28T10:47:24-05:00,10.20.0.13,10.20.0.5,analista.04,ws-04,connection,,allowed,443,4427,[SINTETICO] Conexion de aplicacion corporativa

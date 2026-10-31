@@ -1,0 +1,107 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+
+# Node / Vite / TypeScript
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+*.log
+
+# Configuración privada y credenciales (no se requieren para arrancar)
+.env
+.env.*
+.npmrc
+.pypirc
+.netrc
+.aws/
+.ssh/
+.codex/
+.agents/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+credentials.json
+credentials.*.json
+
+# Evidencia, bases, importaciones, informes y copias locales
+/data/
+/artifacts/
+/uploads/
+/imports/
+/exports/
+/reports/
+/backups/
+/logs/
+/private/
+/local/
+/tmp/
+/temp/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.sql
+*.bak
+*.backup
+*.old
+*.orig
+*.xls
+*.xlsx
+*.xlsm
+*.ods
+*.csv
+*.tsv
+*.pdf
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Únicas excepciones de datos: sintéticos verificados en 5A.
+!/samples/escenario_soc.csv
+!/frontend/src/test/fixtures/report-executive-sample.pdf
+!/frontend/src/test/fixtures/report-technical-sample.pdf
+
+# Los informes históricos contienen procedencia/rutas/evidencias privadas.
+# Se conservan localmente; solo la documentación pública revisada se incluye.
+/docs/*
+!/docs/README.md
+!/docs/PROJECT_PLAN.md
+!/docs/PUBLICATION_GUIDE.md
+/frontend/README.md
+
+# Capturas: ninguna imagen se incorpora sin revisión explícita de privacidad.
+/assets/screenshots/*
+!/assets/screenshots/README.md
+
+# Editores y Windows
+.idea/
+.vscode/
+.history/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.stackdump
+*.dmp
+*.tmp
+*.temp
+*.swp
+*~

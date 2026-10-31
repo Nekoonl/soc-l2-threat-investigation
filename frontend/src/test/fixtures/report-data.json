@@ -1,0 +1,544 @@
+{
+  "_fixture": "TEST ONLY contracts and PDFs generated from the real backend on a temporary database; no user evidence.",
+  "summary": {
+    "schema_version": 1,
+    "read_only": true,
+    "dataset_revision": "58c2c544d5e6b91214eb8bc14ce42bd2e2f783fee92e90fb7cd5a4c95b39479a",
+    "total_events": 8,
+    "excluded_synthetic_events": 0,
+    "source_file_count": 1,
+    "import_request_count": 1,
+    "severity_original": [
+      {
+        "value": "High",
+        "count": 7
+      },
+      {
+        "value": "Informational",
+        "count": 1
+      }
+    ],
+    "log_sources": [
+      {
+        "value": "Windows Security",
+        "count": 8
+      }
+    ],
+    "hosts": {
+      "unique_count": 1,
+      "missing_events": 0,
+      "top": [
+        {
+          "value": "test-host",
+          "count": 8
+        }
+      ],
+      "other_events": 0
+    },
+    "users": {
+      "unique_count": 1,
+      "missing_events": 0,
+      "top": [
+        {
+          "value": "test-user",
+          "count": 8
+        }
+      ],
+      "other_events": 0
+    },
+    "source_ips": {
+      "unique_count": 1,
+      "missing_events": 0,
+      "top": [
+        {
+          "value": "192.0.2.20",
+          "count": 8
+        }
+      ],
+      "other_events": 0
+    },
+    "authentication": {
+      "success": 1,
+      "failure": 5,
+      "unclassified": 2
+    },
+    "stored_case_count": 0,
+    "confirmed_incidents": null
+  },
+  "empty": {
+    "schema_version": 1,
+    "read_only": true,
+    "dataset_revision": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "total_events": 0,
+    "excluded_synthetic_events": 0,
+    "source_file_count": 0,
+    "import_request_count": 0,
+    "severity_original": [],
+    "log_sources": [],
+    "hosts": {
+      "unique_count": 0,
+      "missing_events": 0,
+      "top": [],
+      "other_events": 0
+    },
+    "users": {
+      "unique_count": 0,
+      "missing_events": 0,
+      "top": [],
+      "other_events": 0
+    },
+    "source_ips": {
+      "unique_count": 0,
+      "missing_events": 0,
+      "top": [],
+      "other_events": 0
+    },
+    "authentication": {
+      "success": 0,
+      "failure": 0,
+      "unclassified": 0
+    },
+    "stored_case_count": 0,
+    "confirmed_incidents": null
+  },
+  "preview": {
+    "schema_version": 1,
+    "preview_id": "PREV-10551EF11BD72A2DE1A05D09",
+    "engine_version": "soc-preview-1",
+    "read_only": true,
+    "dataset": {
+      "sha256": "fa13db42a52427d3c7c961fa8d1e49060e34ee41a27abee4e33a5c323a3fd2b6",
+      "revision": "58c2c544d5e6b91214eb8bc14ce42bd2e2f783fee92e90fb7cd5a4c95b39479a",
+      "event_count": 8,
+      "stored_incident_count": 0,
+      "excluded_synthetic_count": 0,
+      "unknown_timezone_count": 8,
+      "absolute_time_count": 0,
+      "unverified_time_count": 0
+    },
+    "options": {
+      "assume_comparable_clocks": false,
+      "relative_scope_count": 0,
+      "assumption": null
+    },
+    "counts": {
+      "alerts": 2,
+      "correlations": 0,
+      "by_risk": {
+        "critical": 0,
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "by_rule": {
+        "AUTH-001": 0,
+        "AUTH-002": 0,
+        "AUTH-003": 0,
+        "NET-001": 0,
+        "EXEC-001": 2
+      }
+    },
+    "coverage": [
+      {
+        "id": "AUTH-001",
+        "name": "Fuerza bruta",
+        "technique": "T1110",
+        "tactic": "Acceso a credenciales",
+        "score": 70,
+        "condition": "5 o más fallos del mismo origen, usuario y host en 5 minutos.",
+        "limitations": "Puede corresponder a una contraseña desactualizada o una aplicación mal configurada.",
+        "fields": [
+          "Timestamp",
+          "Source_IP",
+          "User",
+          "Hostname",
+          "Event_ID / Result"
+        ],
+        "temporal": true,
+        "evaluated_events": 0,
+        "omitted_temporal_events": 5,
+        "omitted_context_events": 3,
+        "alerts": 0,
+        "status": "not_evaluated",
+        "reason": "Se omitieron 5 eventos aplicables por falta de base temporal comparable."
+      },
+      {
+        "id": "AUTH-002",
+        "name": "Acceso tras múltiples fallos",
+        "technique": "T1078",
+        "tactic": "Acceso inicial",
+        "score": 92,
+        "condition": "Inicio de sesión exitoso precedido por 5 o más fallos del mismo origen, usuario y host en 10 minutos.",
+        "limitations": "El éxito no confirma una intrusión. Verifica identidad, MFA y contexto del activo.",
+        "fields": [
+          "Timestamp",
+          "Source_IP",
+          "User",
+          "Hostname",
+          "Event_ID / Result"
+        ],
+        "temporal": true,
+        "evaluated_events": 0,
+        "omitted_temporal_events": 6,
+        "omitted_context_events": 2,
+        "alerts": 0,
+        "status": "not_evaluated",
+        "reason": "Se omitieron 6 eventos aplicables por falta de base temporal comparable."
+      },
+      {
+        "id": "AUTH-003",
+        "name": "Posible password spraying",
+        "technique": "T1110.003",
+        "tactic": "Acceso a credenciales",
+        "score": 78,
+        "condition": "Fallos contra 5 o más usuarios diferentes desde una IP en 10 minutos.",
+        "limitations": "Sin conocer la contraseña utilizada, la técnica es una hipótesis de clasificación.",
+        "fields": [
+          "Timestamp",
+          "Source_IP",
+          "User",
+          "Event_ID / Result"
+        ],
+        "temporal": true,
+        "evaluated_events": 0,
+        "omitted_temporal_events": 5,
+        "omitted_context_events": 3,
+        "alerts": 0,
+        "status": "not_evaluated",
+        "reason": "Se omitieron 5 eventos aplicables por falta de base temporal comparable."
+      },
+      {
+        "id": "NET-001",
+        "name": "Exploración de puertos",
+        "technique": "T1046",
+        "tactic": "Descubrimiento",
+        "score": 58,
+        "condition": "10 o más puertos de destino distintos desde una IP hacia el mismo destino en 2 minutos.",
+        "limitations": "Puede ser un escáner de vulnerabilidades autorizado. Validar con el inventario.",
+        "fields": [
+          "Timestamp",
+          "Source_IP",
+          "IP de destino",
+          "Puerto de destino estructurado"
+        ],
+        "temporal": true,
+        "evaluated_events": 0,
+        "omitted_temporal_events": 0,
+        "omitted_context_events": 8,
+        "alerts": 0,
+        "status": "not_evaluated",
+        "reason": "Faltan combinaciones válidas de IP origen/destino y puerto estructurado; no se infieren puertos del texto."
+      },
+      {
+        "id": "EXEC-001",
+        "name": "PowerShell sospechoso",
+        "technique": "T1059.001",
+        "tactic": "Ejecución",
+        "score": 82,
+        "condition": "PowerShell/pwsh o evento 4104 con codificación, DownloadString, Invoke-Expression, IEX o bypass.",
+        "limitations": "Son indicadores de comando; no se ejecuta ni decodifica el contenido. Revisar scripts administrativos.",
+        "fields": [
+          "Event_ID / contexto PowerShell",
+          "Event_Description / Process_CommandLine / message"
+        ],
+        "temporal": false,
+        "evaluated_events": 8,
+        "omitted_temporal_events": 0,
+        "omitted_context_events": 0,
+        "alerts": 2,
+        "status": "evaluated",
+        "reason": "Indicador individual; no necesita intervalo temporal."
+      }
+    ],
+    "alerts": [
+      {
+        "id": "ALR-E11C0424B5591B873E03",
+        "rule_id": "EXEC-001",
+        "title": "PowerShell sospechoso",
+        "technique": "T1059.001",
+        "tactic": "Ejecución",
+        "score": 82,
+        "severity": "high",
+        "first_seen": "2026-10-29T10:04:00",
+        "last_seen": "2026-10-29T10:04:00",
+        "time_basis": {
+          "kind": "unavailable",
+          "utc_verified": false,
+          "clock": null,
+          "assumption": null
+        },
+        "src_ip": "192.0.2.20",
+        "username": "test-user",
+        "hostname": "test-host",
+        "explanation": "El comando contiene PowerShell y un indicador de codificación, descarga o ejecución dinámica.",
+        "limitations": "Son indicadores de comando; no se ejecuta ni decodifica el contenido. Revisar scripts administrativos.",
+        "evidence_ids": [
+          7
+        ],
+        "event_count": 1,
+        "analyst_status": "pending_review",
+        "hypothesis": "Actividad compatible con powershell sospechoso; requiere validación del analista.",
+        "depends_on_clock_assumption": false,
+        "risk_reason": "Prioridad heurística fija de la regla: 82/100. PowerShell combinado con un indicador de codificación, descarga o ejecución dinámica. Evidencia asociada: 1 evento(s). No es probabilidad de compromiso ni Severity del archivo.",
+        "related": []
+      },
+      {
+        "id": "ALR-77DE4B84A36899892E6C",
+        "rule_id": "EXEC-001",
+        "title": "PowerShell sospechoso",
+        "technique": "T1059.001",
+        "tactic": "Ejecución",
+        "score": 82,
+        "severity": "high",
+        "first_seen": "2026-10-29T10:04:30",
+        "last_seen": "2026-10-29T10:04:30",
+        "time_basis": {
+          "kind": "unavailable",
+          "utc_verified": false,
+          "clock": null,
+          "assumption": null
+        },
+        "src_ip": "192.0.2.20",
+        "username": "test-user",
+        "hostname": "test-host",
+        "explanation": "El comando contiene PowerShell y un indicador de codificación, descarga o ejecución dinámica.",
+        "limitations": "Son indicadores de comando; no se ejecuta ni decodifica el contenido. Revisar scripts administrativos.",
+        "evidence_ids": [
+          8
+        ],
+        "event_count": 1,
+        "analyst_status": "pending_review",
+        "hypothesis": "Actividad compatible con powershell sospechoso; requiere validación del analista.",
+        "depends_on_clock_assumption": false,
+        "risk_reason": "Prioridad heurística fija de la regla: 82/100. PowerShell combinado con un indicador de codificación, descarga o ejecución dinámica. Evidencia asociada: 1 evento(s). No es probabilidad de compromiso ni Severity del archivo.",
+        "related": []
+      }
+    ],
+    "evidence": [
+      {
+        "timestamp": "2026-10-29T10:04:00",
+        "src_ip": "192.0.2.20",
+        "dst_ip": "",
+        "username": "test-user",
+        "hostname": "test-host",
+        "event_type": "",
+        "event_id": "4688",
+        "status": "Failure",
+        "dst_port": 0,
+        "bytes_sent": 0,
+        "message": "TEST ONLY description\npowershell.exe -EncodedCommand TEST_REDACTED",
+        "log_id": "TEST-PS-1",
+        "destination": "test-server.invalid",
+        "log_source": "Windows Security",
+        "event_description": "TEST ONLY description",
+        "process_commandline": "powershell.exe -EncodedCommand TEST_REDACTED",
+        "source_severity": "Informational",
+        "fingerprint": "20cba6e417ca02e74822bc0bc534808cd84e8c89fdbbd227f0c003c1daba39bc",
+        "timestamp_original": "2026-10-29T10:04:00",
+        "timestamp_utc": null,
+        "timezone_status": "unknown",
+        "source_timezone": null,
+        "raw": {
+          "Log_ID": "TEST-PS-1",
+          "Timestamp": "2026-10-29T10:04:00",
+          "Hostname": "TEST-HOST",
+          "Event_ID": "4688",
+          "User": "TEST-USER",
+          "Source_IP": "192.0.2.20",
+          "Destination": "test-server.invalid",
+          "Log_Source": "Windows Security",
+          "Event_Description": "TEST ONLY description",
+          "Process_CommandLine": "powershell.exe -EncodedCommand TEST_REDACTED",
+          "Result": "Failure",
+          "Severity": "Informational"
+        },
+        "row_number": 8,
+        "sheet_name": null,
+        "source_fields": {
+          "log_id": "present",
+          "timestamp": "present",
+          "hostname": "present",
+          "event_id": "present",
+          "username": "present",
+          "src_ip": "present",
+          "destination": "present",
+          "log_source": "present",
+          "event_description": "present",
+          "process_commandline": "present",
+          "status": "present",
+          "source_severity": "present"
+        },
+        "source_columns": {
+          "log_id": "Log_ID",
+          "timestamp": "Timestamp",
+          "hostname": "Hostname",
+          "event_id": "Event_ID",
+          "username": "User",
+          "src_ip": "Source_IP",
+          "destination": "Destination",
+          "log_source": "Log_Source",
+          "event_description": "Event_Description",
+          "process_commandline": "Process_CommandLine",
+          "status": "Result",
+          "source_severity": "Severity"
+        },
+        "source_values": {
+          "log_id": "TEST-PS-1",
+          "timestamp": "2026-10-29T10:04:00",
+          "hostname": "TEST-HOST",
+          "event_id": "4688",
+          "username": "TEST-USER",
+          "src_ip": "192.0.2.20",
+          "destination": "test-server.invalid",
+          "log_source": "Windows Security",
+          "event_description": "TEST ONLY description",
+          "process_commandline": "powershell.exe -EncodedCommand TEST_REDACTED",
+          "status": "Failure",
+          "source_severity": "Informational"
+        },
+        "stored_normalized": {
+          "log_id": "TEST-PS-1",
+          "timestamp": "2026-10-29T10:04:00",
+          "hostname": "test-host",
+          "event_id": "4688",
+          "username": "test-user",
+          "src_ip": "192.0.2.20",
+          "destination": "test-server.invalid",
+          "log_source": "Windows Security",
+          "event_description": "TEST ONLY description",
+          "process_commandline": "powershell.exe -EncodedCommand TEST_REDACTED",
+          "status": "Failure",
+          "source_severity": "Informational",
+          "dst_ip": "",
+          "message": "TEST ONLY description\npowershell.exe -EncodedCommand TEST_REDACTED",
+          "timestamp_utc": null,
+          "timezone_status": "unknown",
+          "source_timezone": null
+        },
+        "provenance": {
+          "legacy_normalization": false,
+          "original_file_stored": true,
+          "import_created_at": "2026-10-30T12:43:31+00:00",
+          "declared_timezone": null
+        },
+        "id": 7,
+        "import_id": 1,
+        "filename": "TEST-PREVIEW.csv",
+        "file_sha256": "0175f9f4b797e69d6a831ef34bb2e5df3f230188d444949592ef623a919558c5",
+        "synthetic": false
+      },
+      {
+        "timestamp": "2026-10-29T10:04:30",
+        "src_ip": "192.0.2.20",
+        "dst_ip": "",
+        "username": "test-user",
+        "hostname": "test-host",
+        "event_type": "",
+        "event_id": "4688",
+        "status": "Failure",
+        "dst_port": 0,
+        "bytes_sent": 0,
+        "message": "TEST ONLY description\npowershell.exe -enc TEST_REDACTED",
+        "log_id": "TEST-PS-2",
+        "destination": "test-server.invalid",
+        "log_source": "Windows Security",
+        "event_description": "TEST ONLY description",
+        "process_commandline": "powershell.exe -enc TEST_REDACTED",
+        "source_severity": "High",
+        "fingerprint": "5a1c10804b648e145e8dfe1449764a05c2ae8c6a88922e2efd90ba48ac0173d7",
+        "timestamp_original": "2026-10-29T10:04:30",
+        "timestamp_utc": null,
+        "timezone_status": "unknown",
+        "source_timezone": null,
+        "raw": {
+          "Log_ID": "TEST-PS-2",
+          "Timestamp": "2026-10-29T10:04:30",
+          "Hostname": "TEST-HOST",
+          "Event_ID": "4688",
+          "User": "TEST-USER",
+          "Source_IP": "192.0.2.20",
+          "Destination": "test-server.invalid",
+          "Log_Source": "Windows Security",
+          "Event_Description": "TEST ONLY description",
+          "Process_CommandLine": "powershell.exe -enc TEST_REDACTED",
+          "Result": "Failure",
+          "Severity": "High"
+        },
+        "row_number": 9,
+        "sheet_name": null,
+        "source_fields": {
+          "log_id": "present",
+          "timestamp": "present",
+          "hostname": "present",
+          "event_id": "present",
+          "username": "present",
+          "src_ip": "present",
+          "destination": "present",
+          "log_source": "present",
+          "event_description": "present",
+          "process_commandline": "present",
+          "status": "present",
+          "source_severity": "present"
+        },
+        "source_columns": {
+          "log_id": "Log_ID",
+          "timestamp": "Timestamp",
+          "hostname": "Hostname",
+          "event_id": "Event_ID",
+          "username": "User",
+          "src_ip": "Source_IP",
+          "destination": "Destination",
+          "log_source": "Log_Source",
+          "event_description": "Event_Description",
+          "process_commandline": "Process_CommandLine",
+          "status": "Result",
+          "source_severity": "Severity"
+        },
+        "source_values": {
+          "log_id": "TEST-PS-2",
+          "timestamp": "2026-10-29T10:04:30",
+          "hostname": "TEST-HOST",
+          "event_id": "4688",
+          "username": "TEST-USER",
+          "src_ip": "192.0.2.20",
+          "destination": "test-server.invalid",
+          "log_source": "Windows Security",
+          "event_description": "TEST ONLY description",
+          "process_commandline": "powershell.exe -enc TEST_REDACTED",
+          "status": "Failure",
+          "source_severity": "High"
+        },
+        "stored_normalized": {
+          "log_id": "TEST-PS-2",
+          "timestamp": "2026-10-29T10:04:30",
+          "hostname": "test-host",
+          "event_id": "4688",
+          "username": "test-user",
+          "src_ip": "192.0.2.20",
+          "destination": "test-server.invalid",
+          "log_source": "Windows Security",
+          "event_description": "TEST ONLY description",
+          "process_commandline": "powershell.exe -enc TEST_REDACTED",
+          "status": "Failure",
+          "source_severity": "High",
+          "dst_ip": "",
+          "message": "TEST ONLY description\npowershell.exe -enc TEST_REDACTED",
+          "timestamp_utc": null,
+          "timezone_status": "unknown",
+          "source_timezone": null
+        },
+        "provenance": {
+          "legacy_normalization": false,
+          "original_file_stored": true,
+          "import_created_at": "2026-10-30T12:43:31+00:00",
+          "declared_timezone": null
+        },
+        "id": 8,
+        "import_id": 1,
+        "filename": "TEST-PREVIEW.csv",
+        "file_sha256": "0175f9f4b797e69d6a831ef34bb2e5df3f230188d444949592ef623a919558c5",
+        "synthetic": false
+      }
+    ]
+  }
+}
